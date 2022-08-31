@@ -1,0 +1,10 @@
+#!/bin/bash
+
+document=$1
+page=$2
+
+pdflatex ${document}
+pkill atril
+atril -i ${page} ${document}.pdf & disown
+rm ${document}.aux
+rm ${document}.log

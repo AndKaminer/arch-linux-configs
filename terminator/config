@@ -1,0 +1,35 @@
+[global_config]
+  borderless = True
+[keybindings]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    show_titlebar = False
+    scrollbar_position = hidden
+  [[Poggies Ice Rice]]
+    background_color = "#171a2b"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#262a35:#38486e:#4a506f:#525466:#3e5383:#5b6694:#7d82a9:#c3bfcd:#88858f:#38486e:#4a506f:#525466:#3e5383:#5b6694:#7d82a9:#c3bfcd"
+  [[pinky]]
+    background_color = "#282828"
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#e5a6e6"
+    show_titlebar = False
+    scrollbar_position = hidden
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = Poggies Ice Rice
+[plugins]
